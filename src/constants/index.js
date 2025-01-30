@@ -144,7 +144,7 @@ export const myProjects = [
         desc: "This portfolio website, the one you're looking at right now, is a website that showcases my work and skills through my projects and resume related information.",
         subdesc:
             'I dove deeper into React.js and learned Tailwind CSS to create a modern and dynamic interface, while also learned Three.js, React Three Fiber, and Drei, to add immersive and fun 3D elements. Lastly integrated EmailJS for a functional contact form. Overall, this project boosted my frontend skills and design prowess.',
-        href: 'https://devpost.com/software/flavor-finder#updates',
+        href: 'https://github.com/dumburger3/portfolio',
         texture: '/textures/project/portfolio.mkv',
         logo: '/assets/portfolio.png',
         logoStyle: {

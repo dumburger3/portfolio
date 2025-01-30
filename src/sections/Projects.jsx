@@ -44,12 +44,10 @@ const Projects = () => {
                                 </div>
                             ))}
                         </div>
-                        {currentProject.title !== "Portfolio Website" && (
-                            <a className={"flex items-center gap-2 cursor-pointer text-white-600"} href={currentProject.href} target={"_blank"} rel={"noreferrer"}>
-                                <p>Check Github Repository</p>
-                                <img src="/assets/arrow-up.png" alt="arrow" className={"w-3 h-3"}/>
-                            </a>
-                        )}
+                        <a className={"flex items-center gap-2 cursor-pointer text-white-600"} href={currentProject.href} target={"_blank"} rel={"noreferrer"}>
+                            <p>Check Github Repository</p>
+                            <img src="/assets/arrow-up.png" alt="arrow" className={"w-3 h-3"}/>
+                        </a>
                     </div>
                     <div className={"flex justify-between items-center mt-7"}>
                         <button className={"arrow-btn"} onClick={() => handleNavigation('previous')}>
