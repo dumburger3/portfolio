@@ -73,7 +73,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className={"field-input"}
-                                placeholder={"LeBron James"}
+                                placeholder={'LeBron James (or simply "Your Name")'}
                             />
                         </label>
                         <label className={"space-y-3"}>
@@ -97,7 +97,7 @@ const Contact = () => {
                                 required
                                 rows={5}
                                 className={"field-input"}
-                                placeholder={"Hi, I wanna give you a job..."}
+                                placeholder={"I'm reaching out because I want to offer you an exciting opportunity..."}
                             />
                         </label>
 
